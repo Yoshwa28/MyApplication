@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DESARROLLO DE SOTWARE III/Actividad 5 - Sonido--Puelles, Ninantay/app/src/main/res/layout/activity_cat_anime.xml" value="0.33" />
+        <entry key="..\:/DESARROLLO DE SOTWARE III/Actividad 5 - Sonido--Puelles, Ninantay/app/src/main/res/layout/activity_cat_electro.xml" value="0.25" />
+        <entry key="..\:/DESARROLLO DE SOTWARE III/Actividad 5 - Sonido--Puelles, Ninantay/app/src/main/res/layout/activity_cat_metal.xml" value="0.3625" />
+        <entry key="..\:/DESARROLLO DE SOTWARE III/Actividad 5 - Sonido--Puelles, Ninantay/app/src/main/res/layout/activity_cat_pop.xml" value="0.3625" />
+        <entry key="..\:/DESARROLLO DE SOTWARE III/Actividad 5 - Sonido--Puelles, Ninantay/app/src/main/res/layout/activity_rock_cat.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

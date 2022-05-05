@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondouno"
+    app:layoutDescription="@xml/activity_rock_cat_scene"
+    tools:context=".rock_cat">
+
+    <ImageView
+        android:id="@+id/imagen0"
+        android:layout_width="373dp"
+        android:layout_height="258dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/ellibro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="399dp"
+        android:layout_height="394dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.557">
+
+            <ImageView
+                android:id="@+id/p1"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/eltri" />
+
+            <Button
+                android:id="@+id/rock1"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="El Tri - Triste canción"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.389">
+
+            <ImageView
+                android:id="@+id/p2"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/ellibro" />
+
+            <Button
+                android:id="@+id/rock2"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Mägo de Oz - El libro de las sombras"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725">
+
+            <ImageView
+                android:id="@+id/p3"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/cuandopienses" />
+
+            <Button
+                android:id="@+id/rock3"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Pedro Suarez-Vertiz - Cuando Pienses en Volver"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.054">
+
+            <ImageView
+                android:id="@+id/p4"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/losglobos" />
+
+            <Button
+                android:id="@+id/rock4"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Pedro Suarez-Vertiz - Los Globos del Cielo"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+            <ImageView
+                android:id="@+id/p5"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/mago" />
+
+            <Button
+                android:id="@+id/rock5"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Mägo de Oz- Fiesta pagana"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.888">
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>

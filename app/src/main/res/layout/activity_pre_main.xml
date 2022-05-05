@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonddos"
+    android:backgroundTint="#00020202"
+    android:backgroundTintMode="add"
+    tools:context=".pre_main_activity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_colorFilter="@color/teal_200"
+        android:layout_width="275dp"
+        android:layout_height="268dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/music4" />
+
+    <Button
+        android:id="@+id/pre_button"
+        android:layout_width="188dp"
+        android:layout_height="80dp"
+        android:text="Iniciar"
+        android:textSize="20dp"
+        app:cornerRadius="30dp"
+        android:backgroundTint="#23000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/architects_daughter</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/artifika</item>
+        <item>@font/audiowide</item>
+        <item>@font/b612_mono</item>
+        <item>@font/bonbon</item>
+        <item>@font/caesar_dressing</item>
+    </array>
+</resources>

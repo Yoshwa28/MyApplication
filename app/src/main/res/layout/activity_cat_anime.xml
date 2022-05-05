@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondouno"
+    app:layoutDescription="@xml/activity_cat_anime_scene"
+    tools:context=".cat_anime">
+
+    <ImageView
+        android:id="@+id/imagen0"
+        android:layout_width="373dp"
+        android:layout_height="258dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/inuyashiki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="399dp"
+        android:layout_height="394dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.557">
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/drstone" />
+
+            <Button
+                android:id="@+id/anison1"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="BURNOUT SYNDROMES『Good Morning World!』（TVアニメ「Ｄｒ．ＳＴＯＮＥ」オープニングテーマ）"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.389">
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/enen" />
+
+            <Button
+                android:id="@+id/anison2"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Mrs. GREEN APPLE - インフェルノ（Inferno）"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.725">
+
+            <ImageView
+                android:id="@+id/imagen3"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/inuyashiki" />
+
+            <Button
+                android:id="@+id/anison3"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="MAN WITH A MISSION - My Hero"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.054">
+
+            <ImageView
+                android:id="@+id/imagen4"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/spicexwolf" />
+
+            <Button
+                android:id="@+id/anison4"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="Tabi no Tochuu ~Natsumi Kiyoura~ •Spice and Wolf"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222">
+
+            <ImageView
+                android:id="@+id/imagen5"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/tokioghoul" />
+
+            <Button
+                android:id="@+id/anison5"
+                android:layout_width="264dp"
+                android:layout_height="82dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="#66000000"
+                android:onClick="reproducirMusica"
+                android:text="TK from 凛として時雨 『unravel』"
+                android:textColor="@color/white"
+                android:textSize="32px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
